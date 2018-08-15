@@ -1,20 +1,22 @@
 package hearter.requestBean;
 
+// クライアントからのメッセージを格納するクラス
 public class ChatRequestBean {
-	   private String name;
+	   private String msg;
 
 	    public ChatRequestBean() {
 	    }
 
-	    public ChatRequestBean(String name) {
-	        this.name = name;
+	    public ChatRequestBean(String msg) {
+	        this.msg = msg;
 	    }
 
-	    public String getName() {
-	        return name;
+	    public String getMsg() {
+	        return msg;
 	    }
 
-	    public void setName(String name) {
-	        this.name = name;
+	    public void setMsg(String msg) {
+	    	System.out.print("-----" + msg);
+	        this.msg = msg;
 	    }
 	}

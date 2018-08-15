@@ -34,8 +34,8 @@ function disconnect() {
 }
 
 // メッセージ送信時に呼び出し
-function sendName() {
-    stompClient.send("/app/message", {}, JSON.stringify({'name': $("#name").val()}));
+function sendMsg() {
+    stompClient.send("/app/message", {}, JSON.stringify({'msg': $("#sent-message").val()}));
 }
 
 // メッセージを画面に挿入
@@ -51,5 +51,5 @@ $(function () {
     });
     $( "#connect" ).click(function() { connect(); });
     $( "#disconnect" ).click(function() { disconnect(); });
-    $( "#send" ).click(function() { sendName(); });
+    $( "#send" ).click(function() { sendMsg(); });
 });
