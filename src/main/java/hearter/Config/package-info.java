@@ -5,4 +5,4 @@
  * @author yukiyoshimura
  *
  */
-package hearter.Config;
+package hearter.config;
