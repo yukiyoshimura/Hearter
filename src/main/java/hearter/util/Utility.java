@@ -1,4 +1,4 @@
-package hearter.lib;
+package hearter.util;
 
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;

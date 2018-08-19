@@ -1,4 +1,4 @@
-package hearter.responseBean;
+package hearter.model.responseBean;
 
 // Subscriberに送信するメッセージを保持するクラス
 public class ChatResponseBean {

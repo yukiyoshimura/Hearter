@@ -5,4 +5,4 @@
  * @author yukiyoshimura
  *
  */
-package hearter.requestBean;
+package hearter.model.requestBean;

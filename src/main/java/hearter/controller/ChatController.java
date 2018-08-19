@@ -5,9 +5,9 @@ import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.util.HtmlUtils;
 
-import hearter.lib.Utility;
-import hearter.requestBean.ChatRequestBean;
-import hearter.responseBean.ChatResponseBean;
+import hearter.model.requestBean.ChatRequestBean;
+import hearter.model.responseBean.ChatResponseBean;
+import hearter.util.Utility;
 
 @Controller
 public class ChatController {

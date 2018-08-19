@@ -1,4 +1,4 @@
-package hearter.requestBean;
+package hearter.model.requestBean;
 
 // クライアントからのメッセージを格納するクラス
 public class ChatRequestBean {
